@@ -3,7 +3,7 @@ const crypto=require('crypto');
 const nodemailer=require('nodemailer');
 const SMTP=require('../config/smtp');
 
-const User=require('../models/User');
+const User=require('../models/user');
 const { user } = require('../config/smtp');
 
 const transport=nodemailer.createTransport({
